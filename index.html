@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> <!--Copiado do Slich-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/><!--Copiado do Slich-->
+    <title>Car Motors</title>
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+        <div class="container container-flex">
+            <h1>Car Motors</h1>
+            <div class="menu-hamburger"><!--Menu Hamburguer-->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav><!--Menu do Site-->
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Em destaque</a>
+                    </li>
+                    <li>
+                        <a href="#">Promoções</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="carrosel-imagem"><!--DIV responsavel pelo carrosel-->
+        <img src="./images/slide1.png" alt="Carro da Porche">
+        <img src="./images/slide2.png" alt="Carro da BMW">
+        <img src="./images/slide3.png" alt="Carro da Ford">
+    </div>
+    
+    <section id="sobre-a-loja"> <!--Seção Sobre-->
+        <div class="container container-flex">
+            <img src="./images/loja.jpg" alt="Imagem da Loja Ebac Motors">
+            <div>
+                <h2>Sobre a Car Motors</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae sapiente qui ut distinctio omnis unde id explicabo deserunt soluta itaque possimus excepturi, expedita nemo repellendus fugiat perferendis, ab nostrum aliquam.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae sapiente qui ut distinctio omnis unde id explicabo deserunt soluta itaque possimus excepturi, expedita nemo repellendus fugiat perferendis, ab nostrum aliquam.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section> <!--Secção em Destaque-->
+        <div class="container">
+            <h2 id="em-destaque">Em destaque</h2>
+            <ul class="container-flex lista-veiculos">
+                <li>
+                    <img src="./images/carro-bmw.png" alt="Carro da BMW">
+                    <h3>Carro BMW</h3>
+                    <p>
+                        Cambio automatico, 4 portas, trio eletrico, 0 KM
+                    </p>
+                    <div class="price">
+                        <strong>R$ 320.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li class="item-central">
+                    <img src="./images/argo hgt.jpg" alt="Argo HGT">
+                    <h3>Argo HGT</h3>
+                    <p>
+                        Cambio manual, 4 portas, trio eletrico, 2022
+                    </p>
+                    <div class="price">
+                        <strong>R$ 62.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li>
+                    <img src="./images/moto-bmw.png" alt="BMW K1300">
+                    <h3>BMW K1300</h3>
+                    <p>
+                        Transmissão por Cardã, Piloto automatico, Unico dono
+                    </p>
+                    <div class="price">
+                        <strong>R$ 45.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li>
+                    <img src="./images/Fiat Toro.jpeg" alt="Fiat Toro">
+                    <h3>Fiat Toro</h3>
+                    <p>
+                        Diesel, 4 portas, trio eletrico, baixa KM
+                    </p>
+                    <div class="price">
+                        <strong>R$ 180.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li class="item-central">
+                    <img src="./images/nivus.jpg" alt="nivus">
+                    <h3>VW Nivus</h3>
+                    <p>
+                        Cambio automatico, Unico dono, trio eletrico, 2020
+                    </p>
+                    <div class="price">
+                        <strong>R$ 85.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li>
+                    <img src="./images/lancer evo.webp" alt="Lancer EVO VIII">
+                    <h3>Lancer EVO VIII</h3>
+                    <p>
+                        Cambio manual, 2010, 400HP, baixa KM
+                    </p>
+                    <div class="price">
+                        <strong>R$ 145.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section> <!--Secção em Promoção-->
+        <div class="container">
+            <h2>Promoções</h2>
+            <ul class="container-flex lista-veiculos">
+                <li>
+                    <img src="./images/kombi.jpg" alt="Kombi">
+                    <h3>Kombi Last Edition</h3>
+                    <p>
+                        Cambio Runner, Motor 1.4, baixa KM
+                    </p>
+                    <div class="price">
+                        <del>R$ 80.000,00</del>
+                        <strong>R$ 65.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li class="item-central">
+                    <img src="./images/fusca.png" alt="Carro da BMW">
+                    <h3>Fusca Itamar</h3>
+                    <p>
+                        Unico dono, baixa KM, 1994
+                    </p>
+                    <div class="price">
+                        <del>R$ 30.000,00</del>
+                        <strong>R$ 24.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li>
+                    <img src="./images/cbr.jpg" alt="CBR 600">
+                    <h3>CBR 600</h3>
+                    <p>
+                        Zero KM
+                    </p>
+                    <div class="price">
+                        <del>R$ 65.000,00</del>
+                        <strong>R$ 58.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li>
+                    <img src="./images/impreza.webp" alt="Subaru Impreza WRX">
+                    <h3>Subaru Impreza WRX</h3>
+                    <p>
+                        Cambio automatico, 4 portas, trio eletrico, baixa KM
+                    </p>
+                    <div class="price">
+                        <del>R$ 190.000,00</del>
+                        <strong>R$ 140.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li class="item-central">
+                    <img src="./images/carro-bmw.png" alt="Carro da BMW">
+                    <h3>Carro BMW</h3>
+                    <p>
+                        Cambio automatico, 4 portas, trio eletrico, baixa KM
+                    </p>
+                    <div class="price">
+                        <del>R$ 100.000,00</del>
+                        <strong>R$ 75.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+                <li>
+                    <img src="./images/punto.jpg" alt="Punto Tjet">
+                    <h3>Punto Tjet</h3>
+                    <p>
+                        Cambio Manual, 200CV, trio eletrico, baixa KM
+                    </p>
+                    <div class="price">
+                        <del>R$ 65.000,00</del>
+                        <strong>R$ 53.000,00</strong>
+                    </div>
+                    <button type="button">Tenho interesse</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato"> <!--Seção Entre em Contato-->
+        <div class="container">
+            <h2>
+                Entre em Contato
+            </h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome</label> <!--Label da um focus no elemento ao ser clicado-->
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-campo">
+                    <label for="veiculo-interesse">Veiculo de interesse</label>
+                    <input type="text" id="veiculo-interesse" name="veiculoDeInteresse">
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container container-flex">
+            <p>
+                2023 &copy; Car Motors - Todos os direitos reservados para OM2N
+            </p>
+            <ul class="container-flex">
+                <li>
+                    <a href="#">
+                        <img src="./icones/facebook.png" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/instagram.png" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/youtube.png" alt="youtube">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!--Pluigins-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> <!--Adiciona o jQuery-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> <!--Plugin do carrosel Copiado do Slich-->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> <!--Plugin do carrosel Copiado do Slich-->
+    <script src="./js/jquery.mask.min.js"></script> <!--Adiciona o Pluguin Jquery Mask baixado no computador-->
+    <script src="./js/jquery.validate.min.js"></script> <!--Adiciona o Pluguin de validação Jquery baixado no computador-->
+    <script src="./js/messages_pt_BR.min.js"></script> <!--Adiciona a tradução do plugin de validação-->
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>

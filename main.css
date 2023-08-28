@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden; /*Esconte todo o conteudo que ultrapasse o tamanho da tela ocultando a barra de rolagem*/
+}
+
+.container{ 
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto; /*Centraliza todo o conteudo*/
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header,
+footer {
+    background-color: #192a56;
+    padding-top: 16px; /*Retira a borda extra abaixo do menu*/
+    color: #fff;
+}
+
+header > .container,
+footer > .container {
+    justify-content: space-between; /*Posiciona o menu hamburguer no canto direito*/
+    align-items: center; /*Alinha o Menu na vertical*/
+    padding-bottom: 16px; /*Descola o titulo do Menu*/
+}
+
+nav {
+    background-color: #575fcf;
+    padding: 16px 0;
+    display: none; /*Esconde o menu para que o mesmo possa aparecer ao ser clicado no menu hamburger*/
+}
+
+nav li {
+    list-style: none; /*Remove os marcadores da lista não ordenada*/
+    display: inline; /*Itens do menu lado a lado*/
+    margin-right: 16px; /*Distancia os elementos do menu*/
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-hamburger {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburger span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex {
+    display: flex; /*Posiciona os elementos lado a lado*/
+}
+
+#sobre-a-loja img {
+    max-width: 400px; /*Altera o tamanho da imagem*/
+    margin-right: 24px;
+}
+
+section {
+    padding: 40px 0; /*Espaçamento entre a secção e o cabecalho*/
+}
+
+section h2 {
+    margin-bottom: 16px; /*Espaçamento entre o sub titulo h2 do texto*/
+}
+
+.lista-veiculos {
+flex-wrap: wrap; /*Quebra de linhas*/
+}
+
+.lista-veiculos li { /*Remove a decoração da lista*/
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.lista-veiculos li img {
+    max-width: 100%; /*Alinha as imagens limitando ao tamanho total da seção*/
+}
+
+.lista-veiculos li h3 { /*Adiciona espacamento no subtitulo h3*/
+    margin: 16px 0;
+}
+
+.item-central {
+    margin: 0 5%; /*Adiciona um percentual de margem a direita e a esquerda do item central*/
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.price {
+    margin: 16px 0;
+    display: block; /*Muda o display permitindo que a margem seja aplicada*/
+}
+
+.price del {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block; /*Posiciona os elementos um em baixo do outro*/
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none; /*Desabilita o redimencionamento do textarea pelo usuario*/
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
